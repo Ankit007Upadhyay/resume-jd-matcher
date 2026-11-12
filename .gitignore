@@ -17,3 +17,5 @@ Thumbs.db
 # Generated files
 *.faiss
 *.pkl
+
+sample.pdf
