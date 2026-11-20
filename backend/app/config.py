@@ -19,7 +19,7 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 TOP_K = 3
-
+WEAK_MATCH_SCORE = 0.25
 # ---------- Hybrid score weights (total = 1.0) ----------
 WEIGHT_SEMANTIC = 0.40
 WEIGHT_SKILLS = 0.30
