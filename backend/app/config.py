@@ -25,6 +25,12 @@ WEIGHT_SEMANTIC = 0.40
 WEIGHT_SKILLS = 0.30
 WEIGHT_RUBRIC = 0.30
 
+
+SEMANTIC_LOW = 0.15
+SEMANTIC_HIGH = 0.55
+
+
+
 # ---------- Data files ----------
 SKILLS_FILE = BASE_DIR / "backend" / "data" / "skills.txt"
 
@@ -38,3 +44,6 @@ def validate_config():
     total = WEIGHT_SEMANTIC + WEIGHT_SKILLS + WEIGHT_RUBRIC
     if abs(total - 1.0) > 1e-9:
         raise ValueError(f"Weights ka sum 1.0 hona chahiye, abhi {total} hai.")
+    
+    
+
