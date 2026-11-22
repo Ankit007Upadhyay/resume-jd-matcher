@@ -1,0 +1,50 @@
+python
+sql
+c++
+java
+javascript
+typescript
+react
+node.js
+fastapi
+flask
+django
+langchain
+langgraph
+llamaindex
+pytorch
+tensorflow
+scikit-learn
+hugging face
+transformers
+lora
+qlora
+peft
+fine-tuning
+prompt engineering
+rag
+vector database
+faiss
+chromadb
+embeddings
+semantic search
+docker
+kubernetes
+aws
+azure
+gcp
+git
+linux
+mongodb
+postgresql
+mysql
+redis
+rest api
+machine learning
+deep learning
+nlp
+llm
+mlops
+ci/cd
+llms
+vector databases
